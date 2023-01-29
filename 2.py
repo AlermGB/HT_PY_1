@@ -2,7 +2,9 @@
 # 123 -> 6 (1 + 2 + 3)
 # 100 -> 1 (1 + 0 + 0)
 
- 
+# number = input('Input three digit number: ')
+# print(int(number[0]) + int(number[1]) + int(number[2]))
+
 # number = input('Input three digit number: ')
 # sum_of_digits = 0
 # for i in number:
@@ -16,6 +18,7 @@
 
 # number = int(input('Input three digit number: '))
 # print(recursion_sum(number))
+
 
 number = int(input('Input three digit number: '))
 sum_of_digits = number // 100 + (number - number // 100 * 100) // 10 + number % 10
